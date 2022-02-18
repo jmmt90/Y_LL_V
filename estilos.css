@@ -28,8 +28,10 @@ padding-bottom: 30px;}
 .tabla{text-align: center;
 transform: translate(358px, 0px);
 }
+
 .sectioncontacto{ background-image: linear-gradient(to right, #2c63c9, #4b78d2, #668cda, #80a1e2, #9ab6e9);
 color: white;}
+
 .tablaborde{ font-size: 15px;
     font-weight: bold;
     border: 1px solid black;}
@@ -44,12 +46,19 @@ color: white;}
 }
 
 
+    .col-md-6 col-xs-6{ border: 2px solid black;
+   
+}
+
 .row{text-align: center;}
-.productos{padding-top: 30px;
-    padding-bottom: 40px;
+.productos{
+    padding-left: 30px;
+    padding-right: 30px;
 font-family: fantasy;
-    font-size: 20px;
-    color: black}
+    font-size: 19px;
+    color: black
+    
+}
 
 .nav-link{font-family: fantasy;
 font-size: 25px;}
@@ -60,11 +69,48 @@ font-size: 25px;}
         animation-iteration-count: infinite;
         animation-duration: 3s;
     }
-.section{background-image: linear-gradient(to top, yellow, red );}
+    
+
+.padreuno{
+    background-image: linear-gradient(to top, yellow, red );
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.padredos{
+    background-image: linear-gradient(to top, yellow, red );
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.padretres{
+    background-image: linear-gradient(to top, yellow, red );
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.hijo{text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+p{font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+font-weight: bold;
+}
+
+.boton {
+    width: 200px;
+    height: 50px;
+    transition: height 2s, width 1s;       
+ }
+ .boton:hover {
+    height: 100px; width: 200px;
+ }
+ 
 .atencion{text-align: center;
     background-image: linear-gradient(to left bottom, #073010, #00342a, #003745, #00365a, #153060);
 transform: translate(0px, 10px);}
-.ubicacion{width: 90%;}
 .redesg{text-align: center;
     padding-bottom: 200px;
 transform: translate(0px,130px);
@@ -76,6 +122,7 @@ font-weight: bold ;
 text-align: center;
 transform: translate(0px,10px);
 }
+.ubicacion{width: 90%;}
 
 .footer{
     background-color: rgb(204, 204, 151);
