@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+/* Encabezado*/
+.header {
+  background-color: #cccc97; }
+  .header .logoefec {
+    animation-name: un_efecto;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    transform: rotateZ(0deg); }
+
+@keyframes un_efecto {
+  0% {
+    width: 50px; }
+  5s {
+    width: 75px; }
+  25% {
+    width: 100px; }
+  50% {
+    width: 180px; }
+  75% {
+    width: 100px; }
+  100% {
+    width: 50px; } }
+  .header .nav-link {
+    font-family: fantasy;
+    font-size: 25px; }
+
+/* ------------------------------------------------------------*/
+/* secciones de contacto*/
+.sectioncontacto {
+  background-image: linear-gradient(to right, #2c63c9, #4b78d2, #668cda, #80a1e2, #9ab6e9);
+  color: white; }
+  .sectioncontacto .atencion {
+    text-align: center;
+    background-image: linear-gradient(to left bottom, #073010, #00342a, #003745, #00365a, #153060);
+    transform: translate(0px, 10px); }
+  .sectioncontacto .tablacontacto {
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(to left bottom, #073010, #00342a, #003745, #00365a, #153060); }
+  @media (max-width: 768px) {
+    .sectioncontacto .tablacontacto {
+      font-size: 9px; }
+    .sectioncontacto .ubicacion {
+      width: 90%; } }
+  .sectioncontacto .redesg {
+    text-align: center;
+    padding-bottom: 200px;
+    transform: translate(0px, 130px); }
+    .sectioncontacto .redesg .redest {
+      font-size: 35px; }
+  .sectioncontacto .domi {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    transform: translate(0px, 10px); }
+
+/* ------------------------------------------------------------*/
+/* Centrado de elementos*/
+.row {
+  border: 1px solid black;
+  text-align: center; }
+
+.col-md-6 col-xs-6 {
+  border: 2px solid black; }
+
+.titulo {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  background-image: linear-gradient(to bottom, #100532, #16032b, #190324, #19021d, #170318); }
+
+.animate__animated.animate__backInDown {
+  animation-iteration-count: infinite;
+  animation-duration: 3s; }
+
+/* ------------------------------------------------------------*/
+/* Padres Productos*/
+.padreuno {
+  background-image: linear-gradient(to top, yellow, red);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.padredos {
+  background-image: linear-gradient(to top, yellow, red);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.padretres {
+  background-image: linear-gradient(to top, yellow, red);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+/* ------------------------------------------------------------*/
+/* Productos*/
+.hijo {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .hijo p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+    font-weight: bold; }
+    .hijo p:hover {
+      background-color: #3a053a; }
+  .hijo .boton {
+    width: 200px;
+    height: 50px;
+    transition: height 2s, width 1s; }
+    .hijo .boton:hover {
+      background-color: #3a053a; }
+  .hijo boton:hover {
+    height: 100px;
+    width: 200px; }
+  .hijo .productos {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: fantasy;
+    font-size: 19px;
+    color: black; }
+    .hijo .productos:hover {
+      color: white;
+      background-color: #3a053a; }
+
+/* ------------------------------------------------------------*/
+/* Pie de pagina */
+.footer {
+  background-color: #cccc97; }
+  .footer #cop {
+    font-size: 5px7;
+    font-weight: bold;
+    transform: translate(-20px, 15px); }
+  .footer .nav-link {
+    font-family: fantasy;
+    font-size: 25px; }
+
+/* ------------------------------------------------------------*/

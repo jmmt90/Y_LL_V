@@ -1,0 +1,252 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Encabezado*/
+.header {
+  background-color: #cccc97;
+}
+
+.header .logoefec {
+  -webkit-animation-name: un_efecto;
+          animation-name: un_efecto;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-transform: rotateZ(0deg);
+          transform: rotateZ(0deg);
+}
+
+@-webkit-keyframes un_efecto {
+  0% {
+    width: 50px;
+  }
+  5s {
+    width: 75px;
+  }
+  25% {
+    width: 100px;
+  }
+  50% {
+    width: 180px;
+  }
+  75% {
+    width: 100px;
+  }
+  100% {
+    width: 50px;
+  }
+}
+
+@keyframes un_efecto {
+  0% {
+    width: 50px;
+  }
+  5s {
+    width: 75px;
+  }
+  25% {
+    width: 100px;
+  }
+  50% {
+    width: 180px;
+  }
+  75% {
+    width: 100px;
+  }
+  100% {
+    width: 50px;
+  }
+}
+
+.header .nav-link {
+  font-family: fantasy;
+  font-size: 25px;
+}
+
+/* ------------------------------------------------------------*/
+/* secciones de contacto*/
+.sectioncontacto {
+  background-image: -webkit-gradient(linear, left top, right top, from(#2c63c9), color-stop(#4b78d2), color-stop(#668cda), color-stop(#80a1e2), to(#9ab6e9));
+  background-image: linear-gradient(to right, #2c63c9, #4b78d2, #668cda, #80a1e2, #9ab6e9);
+  color: white;
+}
+
+.sectioncontacto .atencion {
+  text-align: center;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#073010), color-stop(#00342a), color-stop(#003745), color-stop(#00365a), to(#153060));
+  background-image: linear-gradient(to left bottom, #073010, #00342a, #003745, #00365a, #153060);
+  -webkit-transform: translate(0px, 10px);
+          transform: translate(0px, 10px);
+}
+
+.sectioncontacto .tablacontacto {
+  font-weight: bold;
+  color: white;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#073010), color-stop(#00342a), color-stop(#003745), color-stop(#00365a), to(#153060));
+  background-image: linear-gradient(to left bottom, #073010, #00342a, #003745, #00365a, #153060);
+}
+
+@media (max-width: 768px) {
+  .sectioncontacto .tablacontacto {
+    font-size: 9px;
+  }
+  .sectioncontacto .ubicacion {
+    width: 90%;
+  }
+}
+
+.sectioncontacto .redesg {
+  text-align: center;
+  padding-bottom: 200px;
+  -webkit-transform: translate(0px, 130px);
+          transform: translate(0px, 130px);
+}
+
+.sectioncontacto .redesg .redest {
+  font-size: 35px;
+}
+
+.sectioncontacto .domi {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  -webkit-transform: translate(0px, 10px);
+          transform: translate(0px, 10px);
+}
+
+/* ------------------------------------------------------------*/
+/* Centrado de elementos*/
+.row {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.titulo {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#100532), color-stop(#16032b), color-stop(#190324), color-stop(#19021d), to(#170318));
+  background-image: linear-gradient(to bottom, #100532, #16032b, #190324, #19021d, #170318);
+}
+
+.animate__animated.animate__backInDown {
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+/* ------------------------------------------------------------*/
+/* Padres Productos*/
+.padreuno {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(yellow), to(red));
+  background-image: linear-gradient(to top, yellow, red);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.padredos {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(yellow), to(red));
+  background-image: linear-gradient(to top, yellow, red);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.padretres {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(yellow), to(red));
+  background-image: linear-gradient(to top, yellow, red);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+/* ------------------------------------------------------------*/
+/* Productos*/
+.hijo {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.hijo p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.hijo p:hover {
+  background-color: #3a053a;
+  color: yellow;
+  font: normal 24px/1.5 "Open Sans", sans-serif;
+}
+
+.hijo .boton {
+  width: 200px;
+  height: 50px;
+  -webkit-transition: height 2s, width 1s;
+  transition: height 2s, width 1s;
+}
+
+.hijo .boton:hover {
+  color: yellow;
+}
+
+.hijo boton:hover {
+  height: 100px;
+  width: 200px;
+}
+
+.hijo .productos {
+  font-family: fantasy;
+  font-size: 26px;
+  color: black;
+}
+
+.hijo .productos:hover {
+  color: yellow;
+  background-color: #300330;
+  font: normal 24px/1.5 "Open Sans", sans-serif;
+}
+
+/* ------------------------------------------------------------*/
+/* Pie de pagina */
+.footer {
+  background-color: #cccc97;
+}
+
+.footer #cop {
+  font-size: 5px7;
+  font-weight: bold;
+  -webkit-transform: translate(-20px, 15px);
+          transform: translate(-20px, 15px);
+}
+
+.footer .nav-link {
+  font-family: fantasy;
+  font-size: 25px;
+}
+
+/* ------------------------------------------------------------*/
+/*# sourceMappingURL=styles.css.map */
